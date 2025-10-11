@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageType>Template</PackageType>
+		<PackageVersion>0.6.0</PackageVersion>
+		<PackageId>WindowSill.Extension.Template</PackageId>
+		<Title>WindowSill Extension Template</Title>
+		<Authors>Etienne Baudoux</Authors>
+		<Description>A .NET template for creating WindowSill extensions. Includes sample Sill with process activation and command integration.</Description>
+		<PackageTags>dotnet-new;templates;windowsill;extension;sill</PackageTags>
+		<PackageProjectUrl>https://getwindowsill.app</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/WindowSill-app/WindowSillExtensionTemplate</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<IncludeContentInPack>true</IncludeContentInPack>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<ContentTargetFolders>content</ContentTargetFolders>
+		<NoWarn>$(NoWarn);NU5128</NoWarn>
+		<NoDefaultExcludes>true</NoDefaultExcludes>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="template\**\*" Exclude="template\**\bin\**;template\**\obj\**" />
+		<Compile Remove="**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Etienne Baudoux",
+  "classifications": [ "WindowSill", "Extension", "Plugin" ],
+  "identity": "WindowSill.ExtensionTemplate",
+  "name": "WindowSill Extension",
+  "shortName": "windowsill-ext",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "WindowSill.Extension",
+  "preferNameDirectory": true
+}

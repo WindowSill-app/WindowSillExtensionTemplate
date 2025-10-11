@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowSillExtensionTemplate", "WindowSillExtensionTemplate.csproj", "{CFFA2F4E-81B0-E51C-F05E-9EB2F04EECCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowSill.Extension", "template\WindowSill.Extension.csproj", "{AC582670-DDB1-D1AD-FAD0-086FDF079AEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFA2F4E-81B0-E51C-F05E-9EB2F04EECCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFA2F4E-81B0-E51C-F05E-9EB2F04EECCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFA2F4E-81B0-E51C-F05E-9EB2F04EECCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFA2F4E-81B0-E51C-F05E-9EB2F04EECCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC582670-DDB1-D1AD-FAD0-086FDF079AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC582670-DDB1-D1AD-FAD0-086FDF079AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC582670-DDB1-D1AD-FAD0-086FDF079AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC582670-DDB1-D1AD-FAD0-086FDF079AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {975DB9F7-54B9-4F16-A6B0-D3ADCB93743E}
+	EndGlobalSection
+EndGlobal

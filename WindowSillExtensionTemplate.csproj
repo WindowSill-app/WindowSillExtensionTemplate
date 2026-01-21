@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
-		<PackageVersion>0.6.0</PackageVersion>
+		<PackageVersion>0.9.9</PackageVersion>
 		<PackageId>WindowSill.Extension.Template</PackageId>
 		<Title>WindowSill Extension Template</Title>
 		<Authors>Etienne Baudoux</Authors>

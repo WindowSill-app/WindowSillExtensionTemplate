@@ -3,7 +3,7 @@
     <TargetFramework>net10.0-windows10.0.22621</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Platforms>x64</Platforms>
+    <Platforms>AnyCPU</Platforms>
 
     <PackageId>WindowSill.Extension</PackageId>
     <Title>WindowSill.Extension</Title>
@@ -14,6 +14,6 @@
     <None Include="CHANGELOGS.md" Pack="true" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="WindowSill.API" Version="*" />
+    <PackageReference Include="WindowSill.API" Version="0.9.20" />
   </ItemGroup>
 </Project>
